@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="main.css">
+   <title>電卓</title>
+ </head>
+ 
+ <body>
+    <div class="calculator-container">
+        <div class="display-area">
+            <div id="display-number">0</div>
+        </div>
+        <div class="button-area">
+            <ul class="h-button">
+                <li><button class="small-button" id="button-7">7</button></li>
+                <li><button class="small-button" id="button-8">8</button></li>
+                <li><button class="small-button" id="button-9">9</button></li>
+                <li><button class="small-button" id="button-plus">+</button></li>
+            </ul>
+            <ul class="h-button">
+                <li><button class="small-button" id="button-4">4</button></li>
+                <li><button class="small-button" id="button-5">5</button></li>
+                <li><button class="small-button" id="button-6">6</button></li>
+                <li><button class="small-button" id="button-minus">-</button></li>
+            </ul>
+            <ul class="h-button">
+                <li><button class="small-button" id="button-1">1</button></li>
+                <li><button class="small-button" id="button-2">2</button></li>
+                <li><button class="small-button" id="button-3">3</button></li>
+                <li><button class="small-button" id="button-multiple">*</button></li>
+            </ul>
+            <ul class="h-button">
+                <li><button class="small-button" id="button-0">0</button></li>
+                <li><button class="small-button" id="button-00">00</button></li>
+                <li><button class="small-button" id="button-point">.</button></li>
+                <li><button class="small-button" id="button-divide">/</button></li>
+            </ul>
+            <ul class="h-button">
+                <li><button class="big-button" id="button-AC">AC</button></li>
+                <li><button class="big-button" id="button-equal">=</button></li>
+            </ul>
+        </div>
+    </div>
+    <p class="annotation">※小数点以下の計算には誤差があります</p>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+ </body>
